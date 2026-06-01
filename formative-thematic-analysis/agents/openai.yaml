@@ -1,7 +1,7 @@
 interface:
   display_name: "Formative Thematic Analysis"
   short_description: "Code interviews into design-analysis tables."
-  default_prompt: "Use $formative-thematic-analysis to analyze this interview transcript with Braun and Clarke thematic analysis and produce an Excel table: quotes, codes, themes, challenges, and design goals."
+  default_prompt: "Use $formative-thematic-analysis to analyze this interview transcript with Braun and Clarke thematic analysis and produce an Excel workbook with one Analysis Table plus Method Notes."
 
 policy:
   allow_implicit_invocation: true

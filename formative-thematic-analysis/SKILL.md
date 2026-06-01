@@ -49,40 +49,32 @@ Treat thematic analysis as a qualitative method for identifying, analyzing, and 
 
 ## Required Output Structure
 
-When generating an Excel workbook, use these sheets:
+When generating an Excel workbook, use two sheets:
 
-1. `Open Coding`
+1. `Analysis Table`
    - `Quote ID`
    - `Time`
+   - `Speaker`
    - `User Quote / Data Extract`
    - `Initial Code`
    - `Code Explanation`
    - `Theme ID`
-   - `Challenge ID`
-   - `Design Goal ID`
-
-2. `Theme Grouping`
-   - `Theme ID`
    - `Theme`
-   - `Included Codes`
-   - `Evidence Quote IDs`
    - `Theme Explanation`
    - `Challenge ID`
-
-3. `Challenges & Design Goals`
-   - `Challenge ID`
    - `Challenge`
-   - `Source Themes`
    - `Design Goal ID`
    - `Design Goal`
    - `Possible Features`
-   - `Notes`
+   - `Analytic Notes`
 
-4. `Method Notes`
+2. `Method Notes`
    - Explain that the analysis follows Braun and Clarke thematic analysis.
    - State the analysis chain: data extract -> code -> theme -> challenge -> design goal.
    - State that multiple codes may form one theme, multiple themes may form one challenge, and each challenge maps to one design goal.
    - Note whether the analysis is preliminary if based on a small number of interviews.
+
+The `Analysis Table` should contain the full traceable chain in one row wherever possible, so readers can scan from the participant quote to the design implication without switching sheets. Repeated theme/challenge/design-goal text is acceptable because readability is more important than database normalization for this deliverable.
 
 ## Analysis Rules
 
@@ -104,7 +96,7 @@ Before finalizing:
 - Check that themes are broader than individual codes.
 - Check that challenges describe problems, not solutions.
 - Check that design goals address the challenges.
-- If creating Excel, verify the workbook exists and includes all required sheets.
+- If creating Excel, verify the workbook exists and includes `Analysis Table` and `Method Notes`.
 
 ## Suggested Method Note Text
 
